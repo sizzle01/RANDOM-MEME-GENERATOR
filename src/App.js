@@ -1,9 +1,14 @@
 
 import './App.css';
+import Header from './Header';
+import MemeGenerator from './MemeGenerator';
 
 function App() {
   return (
-  <h1>LETS START THIS</h1>
+<div>
+<Header/>
+<MemeGenerator/>
+</div>
   );
 }
 
